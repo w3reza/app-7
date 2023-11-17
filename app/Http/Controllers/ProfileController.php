@@ -21,7 +21,7 @@ class ProfileController extends Controller
         
         $name="access_token";
         $value="123-XYZ";
-        $expTime=10;
+        $expTime=60;
         $path="/";
         $domain=$_SERVER['SERVER_NAME'];
         $secure=true;
