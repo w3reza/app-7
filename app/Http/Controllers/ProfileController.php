@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
     
-    public function index($id)
+    public function index(int $id)
     {
         
         $name = "Donald Trump";
