@@ -24,7 +24,7 @@ class ProfileController extends Controller
         $expTime=60;
         $path="/";
         $domain=$_SERVER['SERVER_NAME'];
-        $secure=true;
+        $secure=false;
         $httpOnly=true;
         $setCookie = cookie($name,$value,$expTime,$path,$domain,$secure,$httpOnly);
 
